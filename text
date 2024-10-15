@@ -1,0 +1,13 @@
+
+def calcular(cantidad,valor):
+    return cantidad*valor
+
+print("ingrese cantidad de productos ")
+cantidad=input()
+
+print("ingrese valor de producto ")
+valor=input()
+
+total=calcular(cantidad,valor)
+
+print(f"el total de los productos es $ {total})")
